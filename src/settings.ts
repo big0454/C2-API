@@ -6,10 +6,10 @@ export const settings = {
 	PUBLIC_PATH: process.env.PUBLIC_PATH || Path.resolve(__dirname, '../public'),
 	MIRAI: {
 		OPEN: false,
-		IP: "",
-		PORT: 0,
-		USER: "",
-		PASSWORD: "",
+		IP: "188.212.158.10",
+		PORT: 22,
+		USER: "root",
+		PASSWORD: "Big040654#",
 		COMMAND_PREFIX: "",
 		METHODS: [
 			'UDP', 
